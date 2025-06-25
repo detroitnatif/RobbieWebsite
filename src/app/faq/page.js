@@ -12,6 +12,10 @@ const faqs = [
     answer: "Kayla Ghafari, an MSU graduate, is the CEO of 124 Media Co."
   },
   {
+    question: "What does 124 Media Co. do?",
+    answer: "We help brands and businesses grow through digital innovation, creative strategy, content creation, and intelligent automation."
+  },
+  {
     question: "What services do you offer?",
     answer: "We offer digital presence management, content creation, AI & automation, marketing, and growth services tailored to your business needs."
   },
@@ -26,6 +30,18 @@ const faqs = [
   {
     question: "Where are you located?",
     answer: "We are based in Michigan but work with clients nationwide."
+  },
+  {
+    question: "Do you offer custom AI solutions?",
+    answer: "Yes, we create custom, highly detailed AI-powered agents specifically tailored to your business needs."
+  },
+  {
+    question: "Can you help with social media management?",
+    answer: "Absolutely! We manage social media platforms, create content, schedule posts, and engage with your community."
+  },
+  {
+    question: "How do I get started?",
+    answer: "Simply contact us through our website and we'll set up a consultation to discuss your goals and needs."
   }
 ];
 
