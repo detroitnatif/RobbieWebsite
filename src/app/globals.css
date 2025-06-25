@@ -3,6 +3,12 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   background: #f7f8fa;
   color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .main-layout {
@@ -198,96 +204,65 @@ body {
   margin-bottom: 2rem;
   text-align: center;
 }
-.portfolio-section h2, .faq-section h2 {
-  color: #181c24;
-  margin-top: 0;
-}
 
 .services-intro {
-  font-size: 1.15rem;
-  margin-bottom: 2.5rem;
-  color: #333;
-  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
 .services-groups {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .service-group {
-  background: #f7f8fa;
+  background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-  padding: 2rem 1.5rem;
-  text-align: left;
-  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 1.2rem;
+  flex: 1 1 250px;
+  min-width: 220px;
+  max-width: 320px;
+  margin-bottom: 1.5rem;
 }
 .service-group h3 {
   color: #222;
-  margin-top: 0;
-  margin-bottom: 1rem;
   font-size: 1.2rem;
+  margin-top: 0;
 }
 .service-list {
   list-style: disc inside;
-  padding-left: 0.5rem;
-  color: #222;
-  font-size: 1.05rem;
-  margin: 0;
+  padding-left: 1rem;
 }
 .service-list li {
-  margin-bottom: 0.7rem;
-  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
-
 .main-headline {
-  font-size: 3.2rem;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  margin-bottom: 1.2rem;
-  color: #fff;
-  text-shadow: 0 2px 16px rgba(34,34,34,0.10);
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
 }
 .hero-tagline {
-  font-size: 1.35rem;
-  color: #e0e1e3;
-  margin-bottom: 2.2rem;
-  font-weight: 400;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 @media (max-width: 600px) {
   .main-headline {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
   .hero-tagline {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 }
-
 .black-headline {
-  color: #222 !important;
-  text-shadow: none;
+  color: #222;
 }
 .full-width-btn {
   display: block;
   width: 100%;
-  max-width: 500px;
-  margin: 2.5rem auto 0 auto;
-  font-size: 1.3rem;
-  padding: 1.2rem 0;
-  border-radius: 2.5rem;
-  background: #222;
-  color: #fff;
-  border: none;
-  text-align: center;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  box-shadow: 0 4px 24px rgba(34,34,34,0.08);
-  transition: background 0.2s, color 0.2s;
+  margin: 0 auto;
 }
 .full-width-btn:hover {
-  background: #b0b3b8;
-  color: #222;
-}
+  background: #181c24;
+  color: #fff;
+} 
