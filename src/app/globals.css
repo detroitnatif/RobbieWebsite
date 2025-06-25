@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  background: #f7f8fa;
-  color: #222;
+  background: #e3dfdc;
+  color: #23272f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,7 +21,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #181c24;
+  background: #23272f;
   padding: 1rem 2rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -57,8 +57,8 @@ code {
 }
 
 .home-hero {
-  background: #f7f8fa;
-  color: #222;
+  background: #e3dfdc;
+  color: #23272f;
   border-radius: 1.5rem;
   padding: 4rem 2rem;
   text-align: center;
@@ -75,7 +75,7 @@ code {
 }
 .cta-btn {
   background: #fff;
-  color: #222;
+  color: #23272f;
   padding: 0.8rem 2rem;
   border-radius: 2rem;
   font-weight: 700;
@@ -96,7 +96,7 @@ code {
 .services-section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #181c24;
+  color: #23272f;
 }
 .services-list {
   display: grid;
@@ -116,7 +116,7 @@ code {
 }
 .service-card h3 {
   margin-top: 0;
-  color: #222;
+  color: #23272f;
   font-size: 1.2rem;
 }
 
@@ -128,7 +128,7 @@ code {
   margin-bottom: 2rem;
 }
 .about-section h2 {
-  color: #181c24;
+  color: #23272f;
   margin-top: 0;
 }
 
@@ -141,7 +141,7 @@ code {
   margin: 0 auto 2rem auto;
 }
 .contact-section h2 {
-  color: #181c24;
+  color: #23272f;
   margin-top: 0;
 }
 .contact-form {
@@ -156,11 +156,11 @@ code {
   border: 1px solid #cfd1d4;
   font-size: 1rem;
   resize: none;
-  color: #222;
-  background: #f7f8fa;
+  color: #23272f;
+  background: #e3dfdc;
 }
 .contact-form button {
-  background: #222;
+  background: #23272f;
   color: #fff;
   border: none;
   border-radius: 2rem;
@@ -175,7 +175,7 @@ code {
 }
 
 .footer {
-  background: #181c24;
+  background: #23272f;
   color: #fff;
   text-align: center;
   padding: 1.2rem 0;
@@ -185,13 +185,13 @@ code {
 }
 
 .mission-statement {
-  background: #e0e1e3;
+  background: #e3dfdc;
   border-left: 5px solid #b0b3b8;
   padding: 1.5rem 2rem;
   margin-bottom: 2rem;
   font-size: 1.15rem;
   font-style: italic;
-  color: #222;
+  color: #23272f;
   border-radius: 0.7rem;
   box-shadow: 0 2px 8px rgba(34,34,34,0.06);
 }
@@ -225,7 +225,7 @@ code {
   margin-bottom: 1.5rem;
 }
 .service-group h3 {
-  color: #222;
+  color: #23272f;
   font-size: 1.2rem;
   margin-top: 0;
 }
@@ -255,7 +255,7 @@ code {
   }
 }
 .black-headline {
-  color: #222;
+  color: #23272f;
 }
 .full-width-btn {
   display: block;
@@ -263,6 +263,6 @@ code {
   margin: 0 auto;
 }
 .full-width-btn:hover {
-  background: #181c24;
+  background: #23272f;
   color: #fff;
 } 
