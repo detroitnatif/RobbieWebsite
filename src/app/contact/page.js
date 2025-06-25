@@ -16,6 +16,9 @@ export default function Contact() {
         <textarea placeholder="Your Message" required />
         <button type="submit">Send Message</button>
       </form>
+      <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
+        Or email us directly at <a href="mailto:kayla@124mediaco.com" style={{ color: '#181c24', fontWeight: 600 }}>kayla@124mediaco.com</a>
+      </div>
     </motion.section>
   );
 } 
