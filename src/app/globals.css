@@ -301,8 +301,19 @@ code {
     padding: 0.6rem 0.7rem;
   }
   .cta-btn {
-    font-size: 1rem;
-    padding: 0.7rem 1.2rem;
+    font-size: 1.15rem;
+    padding: 1rem 0;
+    border-radius: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0 0 0;
+    box-sizing: border-box;
+  }
+  .full-width-btn {
+    width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+    display: block;
   }
 }
 .black-headline {
