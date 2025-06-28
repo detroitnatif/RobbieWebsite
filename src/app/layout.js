@@ -2,8 +2,8 @@ import './globals.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: '124 Media Company',
-  description: '124 Media Co. blends creativity, technology, and strategy to help brands connect authentically in a digital world.'
+  title: 'Kuuttila Electric',
+  description: 'Kuuttila Electric provides expert electrical services for homes and businesses.'
 };
 
 export default function RootLayout({ children }) {
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <div className="main-layout">
           <nav className="navbar">
             <div className="logo">
-              <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>124 Media</Link>
+              <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Kuuttila Electric</Link>
             </div>
             <ul className="nav-links">
               <li><Link href="/services">Services</Link></li>
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           </nav>
           <main className="main-content">{children}</main>
           <footer className="footer">
-            &copy; {new Date().getFullYear()} 124 Media Company. All rights reserved.
+            &copy; {new Date().getFullYear()} Kuuttila Electric. All rights reserved.
           </footer>
         </div>
       </body>

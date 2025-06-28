@@ -3,33 +3,36 @@ import { motion } from "framer-motion";
 
 const serviceGroups = [
   {
-    title: 'Digital Presence & Content',
+    title: 'Residential Electrical Services',
     services: [
-      'Social Media Platform Management',
-      'Photography and Videography',
-      'Content Creation (Posts/Stories/Reels)',
-      'Content Scheduling (Calendar)',
-      'Linktree Creation/Maintenance',
-      'Website Developing/Management',
-      'Brand Identity Book',
+      'Electrical Troubleshooting & Repairs',
+      'Panel Upgrades & Circuit Breaker Replacement',
+      'Lighting Installation (Indoor & Outdoor)',
+      'Ceiling Fan Installation',
+      'Home Rewiring & Renovations',
+      'Outlet & Switch Installation',
+      'Smoke & Carbon Monoxide Detectors',
+      'EV Charger Installation',
     ]
   },
   {
-    title: 'AI & Automation',
+    title: 'Commercial Electrical Services',
     services: [
-      'Custom AI Agent Development',
+      'Office & Retail Electrical Fit-Outs',
+      'Lighting Upgrades & Maintenance',
+      'Electrical Safety Inspections',
+      'Surge Protection',
+      'Data & Communication Wiring',
+      'Emergency Lighting Systems',
     ]
   },
   {
-    title: 'Marketing & Growth',
+    title: 'Specialty & Emergency Services',
     services: [
-      'Social Media Marketing',
-      'PR Packages',
-      'Promotions and Giveaways',
-      'Search Engine Optimization (SEO)',
-      'User Generated Content Marketing (UGC)',
-      'Reputation Management Packages (Google and Yelp)',
-      'SMS and Email Marketing Packages',
+      '24/7 Emergency Electrical Repairs',
+      'Generator Installation & Maintenance',
+      'Energy Efficiency Consultations',
+      'Electrical Code Corrections',
     ]
   }
 ];
@@ -44,7 +47,7 @@ export default function Services() {
     <section className="services-section">
       <h2>Our Services</h2>
       <p className="services-intro">
-        At 124 Media Co., we offer a comprehensive suite of digital services tailored to your unique needs. Whether you need us to build something from scratch, update what you already have, or manage it from here on out, we provide flexible solutions designed to support and grow your business.
+        At Kuuttila Electric, we offer a full range of electrical services for homes and businesses. Whether you need a quick repair, a major upgrade, or emergency assistance, our licensed electricians are here to help with safe, reliable, and efficient solutions.
       </p>
       <div className="services-groups">
         {serviceGroups.map((group, idx) => (

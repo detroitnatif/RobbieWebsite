@@ -6,9 +6,9 @@ export default function Home() {
     <>
       <section className="home-hero">
         <div className="hero-content">
-          <h1 className="main-headline black-headline">WE MAKE MEDIA HUMAN</h1>
-          <p className="hero-tagline">124 Media Co. blends creativity, technology, and strategy to help brands connect authentically in a digital world.</p>
-          <Link href="/services" className="cta-btn full-width-btn">See What We Do</Link>
+          <h1 className="main-headline black-headline">POWERING YOUR HOME & BUSINESS SAFELY</h1>
+          <p className="hero-tagline">Kuuttila Electric provides expert electrical services you can trust—24/7 emergency repairs, installations, and upgrades for homes and businesses.</p>
+          <Link href="/services" className="cta-btn full-width-btn">See Our Services</Link>
         </div>
       </section>
     </>

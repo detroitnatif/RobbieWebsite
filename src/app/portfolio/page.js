@@ -9,8 +9,8 @@ const fadeInUp = {
 export default function Portfolio() {
   return (
     <motion.section className="portfolio-section" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
-      <h2>Our Portfolio</h2>
-      <p>Showcasing our best work and client success stories. Portfolio content coming soon!</p>
+      <h2>Our Projects</h2>
+      <p>Take a look at some of our completed electrical projects and satisfied clients. From residential rewiring to commercial lighting upgrades, Kuuttila Electric delivers quality results every time. Portfolio content coming soon!</p>
     </motion.section>
   );
 } 

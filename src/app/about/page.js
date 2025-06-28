@@ -11,17 +11,16 @@ export default function About() {
     <motion.section className="about-section" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
       <h2>Our Mission</h2>
       <motion.blockquote className="mission-statement" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
-        At 124 Media Co., we empower modern businesses through full-spectrum digital innovation. Our mission is to streamline, elevate, and scale brands by combining creative strategy, impactful content, and intelligent automation.<br/><br/>
-        From crafting engaging short-form videos and branded assets to managing social media platforms and executing data-driven campaigns, we help businesses stand out and connect with their audience. We oversee the full digital presence, from content planning and community engagement to website design, development, and optimization, ensuring every touchpoint delivers value and consistency.<br/><br/>
-        We also create custom, highly detailed AI-powered agents specifically tethered to your business needs. These solutions are designed to support your management processes, automate workflows, handle repetitive tasks, and improve internal efficiency with precision and scalability.<br/><br/>
-        Whether you're building your brand from the ground up or ready to level up with advanced systems and strategy, 124 Media Co. is your all-in-one partner for digital transformation and measurable results.
+        At Kuuttila Electric, our mission is to provide safe, reliable, and high-quality electrical solutions for homes and businesses. We are committed to delivering exceptional service, ensuring every project is completed to the highest standards of safety and craftsmanship.<br/><br/>
+        From troubleshooting and repairs to new installations and upgrades, our licensed electricians bring years of experience and a passion for excellence to every job. We believe in honest communication, transparent pricing, and building lasting relationships with our clients.<br/><br/>
+        Whether you need emergency repairs, a full rewiring, or energy-efficient lighting solutions, Kuuttila Electric is your trusted partner for all your electrical needs.
       </motion.blockquote>
-      <h2>About 124 Media Company</h2>
+      <h2>About Kuuttila Electric</h2>
       <p>
-        124 Media Company is dedicated to helping brands and businesses thrive in the digital world. Our team of experts brings creativity, strategy, and passion to every project, ensuring our clients stand out online.
+        Kuuttila Electric is a locally owned and operated electrical company serving residential and commercial clients. Our team of certified electricians is dedicated to providing prompt, professional, and courteous service on every project.
       </p>
       <p>
-        We believe in building authentic connections and delivering measurable results through innovative social media and marketing solutions.
+        We take pride in our attention to detail, commitment to safety, and our reputation for quality workmanship. Your satisfaction and safety are our top priorities.
       </p>
     </motion.section>
   );
