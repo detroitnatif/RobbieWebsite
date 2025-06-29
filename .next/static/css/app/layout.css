@@ -60,12 +60,9 @@ code {
 }
 
 .home-hero {
-  background: #f7f8fa;
-  color: #222;
-  border-radius: 1.5rem;
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: 0;
   margin-bottom: 2rem;
+  background: none;
 }
 .hero-content h1 {
   font-size: 2.8rem;
@@ -254,6 +251,10 @@ code {
   .main-content {
     padding: 1.5rem 0.5rem 2rem 0.5rem;
   }
+  .hero-bg {
+    min-height: 50vh;
+    height: 50vh;
+  }
 }
 @media (max-width: 600px) {
   .main-headline {
@@ -331,4 +332,29 @@ code {
 .full-width-btn:hover {
   background: #181c24;
   color: #fff;
+}
+
+.hero-bg {
+  position: relative;
+  background: url('/chandelier.png') center/cover no-repeat;
+  min-height: 80vh;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  padding: 0;
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.65); /* Soft white overlay for readability */
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
 } 
