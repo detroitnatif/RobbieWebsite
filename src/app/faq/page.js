@@ -8,40 +8,36 @@ const fadeInUp = {
 
 const faqs = [
   {
-    question: "Who is the CEO of 124 Media Co.?",
-    answer: "Kayla Ghafari, an MSU graduate, is the CEO of 124 Media Co."
-  },
-  {
-    question: "What does 124 Media Co. do?",
-    answer: "We help brands and businesses grow through digital innovation, creative strategy, content creation, and intelligent automation."
+    question: "Who is the CEO of Kuuttila Electric?",
+    answer: "Robbie Kuuttila is the CEO of Kuuttila Electric."
   },
   {
     question: "What services do you offer?",
-    answer: "We offer digital presence management, content creation, AI & automation, marketing, and growth services tailored to your business needs."
+    answer: "We provide expert electrical services for homes and businesses, including 24/7 emergency repairs, installations, upgrades, troubleshooting, rewiring, lighting, panel upgrades, and more."
   },
   {
     question: "How can I contact you?",
-    answer: "You can reach us through our Contact page by filling out the form, or by emailing us directly."
+    answer: "You can reach us through our Contact page by filling out the form, or by emailing us directly at info@kuuttilaelectric.com."
   },
   {
-    question: "Do you work with businesses of all sizes?",
-    answer: "Yes! We work with startups, small businesses, and established brands looking to grow their digital presence."
+    question: "Do you work with businesses and homeowners?",
+    answer: "Yes! We work with both residential and commercial clients, providing safe, reliable, and high-quality electrical solutions."
   },
   {
     question: "Where are you located?",
-    answer: "We are based in Michigan but work with clients nationwide."
+    answer: "We are based in Michigan and serve clients throughout the surrounding areas."
   },
   {
-    question: "Do you offer custom AI solutions?",
-    answer: "Yes, we create custom, highly detailed AI-powered agents specifically tailored to your business needs."
+    question: "Do you offer emergency electrical services?",
+    answer: "Yes, we offer 24/7 emergency electrical repairs for urgent issues at your home or business."
   },
   {
-    question: "Can you help with social media management?",
-    answer: "Absolutely! We manage social media platforms, create content, schedule posts, and engage with your community."
+    question: "Are your electricians licensed and insured?",
+    answer: "Absolutely! All of our electricians are fully licensed and insured for your safety and peace of mind."
   },
   {
     question: "How do I get started?",
-    answer: "Simply contact us through our website and we'll set up a consultation to discuss your goals and needs."
+    answer: "Simply contact us through our website or give us a call, and we'll set up a consultation to discuss your electrical needs."
   }
 ];
 
