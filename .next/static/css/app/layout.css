@@ -188,13 +188,14 @@ code {
 }
 
 .footer {
-  background: #181c24;
+  background: transparent;
   color: #fff;
   text-align: center;
   padding: 1.2rem 0;
   font-size: 1rem;
   margin-top: auto;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 0;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
 
 .mission-statement {
@@ -352,7 +353,7 @@ code {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('/chandelier_wide.png') 60% center/cover no-repeat;
+  background: url('/chandelier_wide.png') calc(50% + 100px) center/cover no-repeat;
   z-index: 0;
   border-radius: 0;
   overflow: visible;
