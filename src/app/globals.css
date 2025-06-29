@@ -295,7 +295,7 @@ code {
     min-height: 100vh !important;
     height: 100vh !important;
     width: 100vw !important;
-    background: url('/chandelier.png') center center/cover no-repeat !important;
+    background: url('/chandelier.png') center 60%/120% no-repeat !important;
   }
   .home-hero {
     min-height: 100vh;
