@@ -295,8 +295,18 @@ code {
     padding: 1rem 0.2rem 1.5rem 0.2rem;
     max-width: 100vw;
   }
+  .hero-bg {
+    min-height: 100vh !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    background: url('/chandelier.png') center center/cover no-repeat !important;
+  }
   .home-hero {
+    min-height: 100vh;
     padding: 2rem 0.5rem;
+  }
+  .hero-content {
+    padding: 1rem 0.2rem;
   }
   .about-section, .contact-section, .portfolio-section, .faq-section {
     padding: 1.2rem 0.5rem;
